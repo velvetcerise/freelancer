@@ -1,3 +1,296 @@
-/*
- * Estilos de tu proyecto
- */
+body {
+  margin: 0;
+}
+
+.menu {
+  position: fixed;
+}
+
+header > div > nav {
+      margin: 2px 70px;
+}
+
+/*Saltos de linea*/
+
+hr {
+  background-color: white;
+  height: 6px;
+  background url: (hr.stars.png) no-repeat center;
+  weight: 5px;
+  border: none;
+  width: 289px;
+  text-align: center;
+}
+
+.jump-white, .jump-ligth{
+  background: #2C3E50;
+}
+
+.jump-ligth {
+  height: 1.4px;
+  opacity: 0.1;
+  width: 777px;
+  float: left;
+  position: absolute;
+
+}
+
+
+li {
+  list-style: none;
+  padding-top: 10px;
+  width: 70px;
+  font-size: 20px;
+  display: inline-block; /*Convertir las celdas de la tabla a lineal*/
+  text-align: center;
+  margin: 12px;
+  font-family: Montserrat, sans-serif;
+    padding-bottom: 15px;
+}
+
+.gray:hover{
+color: #18bc9c;
+}
+
+ul {
+  position: relative;
+  float: right; /*Desplazar menu linkeado a la derecha*/
+}
+
+a{
+  text-decoration: none;
+  display: block; /* a, ocupara todo el bloque y no solo las letras para el linekado*/
+  color: white;
+}
+
+div > section > img {
+margin-top: 220px;
+}
+
+section > p {
+  color: white;
+  font-family: Lato;
+  font-size: 27px;
+}
+
+/*BLOQUES*/
+
+.menu, #last-one {
+    width: 100%;
+    background: #2c3e50;
+    width: 100%;
+}
+
+#portfolio, #formulario {
+  width: 100%;
+  background: white;
+  height: 840px;
+  text-align: center;
+}
+
+#green-top, #green-block {
+  width: 100%;
+  background: #18bc9c;
+  text-align: center;
+}
+
+#green-top{
+  height: 750px;
+}
+
+#green-block{
+  height: 550px;
+}
+
+#formulario {
+  margin: 0;
+  padding-top: 56px;
+}
+
+#last-one {
+  height: 400px;
+
+}
+
+/*Encabezados*/
+
+h1 {
+  position: relative;
+  float: left;
+  font-size: 33px;
+  color: white;
+  background: #2c3e50;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  border: 0;
+}
+
+h2 {
+  color: white;
+  font-size: 80px;
+  font-family:  "Montserrat", sans-serif;
+  font-weight: 800;
+  margin: 0;
+  padding-top: 24px;
+}
+
+h3 {
+  font-size: 50px;
+  font-family:  "Montserrat", sans-serif;
+  font-weight: bolder;
+  padding-top: 40px;
+  margin: 0;
+}
+
+h4 {
+  font-size: 50px;
+  font-family:"Montserrat", sans-serif;
+  font-weight: 900;
+  color: white;
+  padding-top: 85px;
+  margin: 0;
+}
+
+h5 {
+  font-size: 28px;
+  font-family:"Montserrat", sans-serif;
+  font-weight: 800;
+  color: white;
+  margin: 0;
+}
+
+section > div > img {
+  display: inline-block;
+  margin: 10px;
+  width: 340px;
+  padding-bottom: 6px;
+
+
+}
+
+
+table {
+    margin: 2px 255px;
+}
+
+td {
+  padding-top: 40px;
+  font-size: 18px;
+  margin: 12px;
+  font-family: Montserrat, sans-serif;
+  color: white;
+  text-align: left;
+  font-weight: lighter;
+
+}
+
+#green-block > .dowland-bottom {
+  margin-top: 64px;
+  border-radius: 7px;
+  color: white;
+  font-family: Montserrat, sans-serif;
+  font-weight: lighter;
+  font-size: 19px;
+  border: 2px solid white;
+  display: inline-block; /*hacer que el boton sea pequeño y no ocupe nuestro ancho de página*/
+}
+
+/*BOTONES*/
+
+.dowland-bottom > p > img
+{
+padding-right: 2px;
+width: 7%;
+text-align: center;
+padding-top: 4px;
+}
+
+.dowland-bottom:hover {
+  color: #18bc9c;
+  background: white;
+}
+
+form {
+  margin: 2px 260px;
+  width: 100%
+}
+
+.contenedor-gigante {
+  margin: 2px -10px;
+  position: absolute;
+  float: right;
+
+}
+
+form > div {
+  margin-top: 50px;
+  weight: 5%
+}
+
+input {
+  display: inline-block;
+  font-family: Lato;
+  font-weight: lighter;
+  font-size: 24px;
+  width: 100%;
+  opacity: 0.85;
+  border: none;
+  padding-bottom: 30px;
+}
+
+#message {
+  padding-bottom: 160px;
+}
+
+#send {
+  width: 10%;
+  background-color: #18bc9c;
+  color: white;
+  border-radius: 5px;
+  font-size: 24px;
+  font-weight: 200;
+  padding-bottom: 14px;
+  padding-top: 8px;
+  float: left;
+  text-align: center;
+}
+
+.division {
+  padding-top: 60px;
+  font-size: 22px;
+  float: left;
+  position: relative;
+  margin: 0 50px;
+}
+
+.division:nth-child(1) {
+  padding-left: 50px;
+}
+
+.division:nth-child(2) {
+  padding-left: 40px;
+}
+
+article > h5 {
+  text-align: center;
+}
+
+article > p {
+  color: white;
+  text-align: center;
+}
+
+
+#last-one > p {
+  padding-top: 345px;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+}
+
+.social {
+  color: white;
+  padding-left: 84px;
+  width: 80%;
+  padding-top: 44px;
+}
